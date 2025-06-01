@@ -6,14 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; }
-    h1 { color: #333; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .content {
+      flex: 1;
+      padding: 2em;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .side-trim {
+      width: 200px;
+      background-image: url('images/background.jpg'); /* Adjust path if needed */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Ryan Deeley!</h1>
-  <p>Welcome to my website.</p>
-  <p><a href="music.html">My current musical obsessions.</a></p>
-  <p>This site is under construction — stay tuned!</p>
+  <div class="container">
+    <div class="content">
+      <h1>Hello, I'm Ryan Deeley!</h1>
+      <p>Welcome to my website.</p>
+      <p><a href="music.html">My current musical obsessions.</a></p>
+      <p>This site is under construction — stay tuned!</p>
+    </div>
+    <div class="side-trim"></div>
+  </div>
 </body>
 </html>

@@ -5,20 +5,41 @@ body, html {
   height: 100%;
 }
 
-/* Set the background image */
-body {
-  background-image: url('images/heaven_or_las_vegas_background.jpg'); /* path to your image */
+/* Layout container: main content + right trim */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  padding: 2em;
+  font-family: sans-serif;
+  color: black; /* adjust if you want a light background */
+  background-color: white;
+}
+
+/* Side trim on the right */
+.side-trim {
+  width: 200px;
+  background-image: url('images/heaven_or_las_vegas_background.jpg'); /* use your actual image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* full screen height */
-  font-family: sans-serif;
-  color: white; /* for better visibility */
 }
 
-/* Optional: Centered content */
+/* Heading style */
 h1 {
-  text-align: center;
-  margin-top: 20%;
+  color: #333;
+  margin-top: 0;
 }
 
+/* Optional link styling */
+a {
+  color: #0055cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
