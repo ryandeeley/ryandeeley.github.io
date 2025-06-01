@@ -1,0 +1,24 @@
+/* Reset default margins */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Set the background image */
+body {
+  background-image: url('images/heaven_or_las_vegas_background.jpg'); /* path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* full screen height */
+  font-family: sans-serif;
+  color: white; /* for better visibility */
+}
+
+/* Optional: Centered content */
+h1 {
+  text-align: center;
+  margin-top: 20%;
+}
+
