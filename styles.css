@@ -23,10 +23,7 @@ body, html {
 /* Side trim on the right */
 .side-trim {
   width: 200px;
-  background-image: url('images/heaven_or_las_vegas_background.jpg'); /* use your actual image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: red;
 }
 
 /* Heading style */
