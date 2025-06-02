@@ -9,6 +9,8 @@ body, html {
 .container {
   display: flex;
   height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* Main content area */
@@ -28,6 +30,15 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.second-trim {
+  width: 200px; /* same width as the first */
+  background-image: url('images/heaven_or_las_vegas_background.jpg'); /* change to your image filename */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 
 /* Heading style */
